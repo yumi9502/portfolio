@@ -1,0 +1,78 @@
+
+@media(min-width:960px){
+    #wrap {
+        width: 960px;
+    }
+}
+#wrap {
+    margin: 0 auto;
+    background-color: #f0ffff;
+}
+header {
+    color: #ffffff;
+    background-color: #f8dce0;
+    background-image: url("higanbana1.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    background-position:right 0px bottom 0px;
+    background-repeat:no-repeat;
+    height:45vh;
+    position:relative;
+    display:flex;
+}
+header nav{
+    position:absolute;
+    bottom:0;
+}
+header ul{
+    list-style:none;
+    margin:0;
+    display:flex;
+}
+header li{
+    margin:0 0 0 15px;
+}
+header a{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+#contents {
+    /*height:1116px;*/
+    border-style:solid; border-width:5px 20px 0px; border-color:#ffd866 #ffd866 #ffffff #ffd866;
+    background-color:white;
+    padding-left:10px;
+}
+.narabi1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.narabi1 p{
+    padding-left:10px;
+}
+footer {
+    color: #ffffff;
+    background-color: #000000;
+    text-align:center;
+    padding:2vh 0 4vh 0;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    list-style:none;
+    padding-left:0;
+}
+footer li{
+    margin-right:6px;
+    padding-left:10px;
+}
+footer li+li{
+    border-left:1px solid #333;
+}
+footer a{
+    text-decoration:none;
+    color:#ffffff;
+}
